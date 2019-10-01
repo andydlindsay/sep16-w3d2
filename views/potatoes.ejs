@@ -1,0 +1,17 @@
+<html>
+  <body>
+    <h1>Potatoes are awesome!!</h1>
+    <a href="/potatoes/new">Create a new potato!</a>
+    <ul>
+      <% for (const key in potatoes) { %>
+        <li>
+          <h2>
+            <a href="/potatoes/<%= key %>">
+              Potato #<%= key %> is <%= potatoes[key].type %>
+            </a>
+          </h2>
+        </li>
+      <% } %>
+    </ul>
+  </body>
+</html>

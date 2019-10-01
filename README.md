@@ -1,11 +1,11 @@
 # W03D02 CRUD with Express
 
 ### To Do
-- [ ] Review ExpressJS
-- [ ] Discuss REST (and RESTful routes)
-- [ ] Implement CRUD/BREAD over HTTP with Express
-- [ ] Use forms to submit HTTP requests
-- [ ] Practice debugging Express
+- [x] Review ExpressJS
+- [x] Discuss REST (and RESTful routes)
+- [x] Implement CRUD/BREAD over HTTP with Express
+- [x] Use forms to submit HTTP requests
+- [x] Practice debugging Express
 
 ### Express
 - a minimalist web server
@@ -18,7 +18,7 @@
 - B GET /resources
 - R GET /resources/1
 - E POST /resources/1
-- A POST /resources
+- A POST /resources && GET /resources/new
 - D POST /resources/1/delete
 
 ### HTTP VERBS
