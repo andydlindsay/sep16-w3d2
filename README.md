@@ -8,52 +8,36 @@
 - [x] Practice debugging Express
 
 ### Express
-- a minimalist web server
-- allows us to bring in middleware
-- middleware: sits between the request and the response
 
-### REST
-- REpresentational State Transfer
-- routes: verbs and paths
-- B GET /resources
-- R GET /resources/1
-- E POST /resources/1
-- A POST /resources && GET /resources/new
-- D POST /resources/1/delete
+A framework that lets us create routes and write/include middleware.
 
-### HTTP VERBS
-- GET, POST, DELETE, PUT, PATCH
+### CRUD / BREAD
 
-### PATH
-- www.example.com/some-resource/123?user=abc&name=andy
+**CRUD** = **C**reate **R**ead **U**pdate **D**elete
 
-### CRUD
-- CRUD - Create Read Update Delete
-- BREAD - Browse Read Edit Add Delete
+**BREAD** = **B**rowse **R**ead **E**dit **A**dd **D**elete
 
+### Routes
 
+A route is made up of a **VERB** and a **PATH**.
 
+Verbs: **GET**, **POST**, **PUT**, **PATCH**, **DELETE**
 
+Path: `example.com`**/resource**, `example.com`**/resource/:id**
 
+### REST - REpresentational State Transfer
 
+REST means that the path that we are going to should represent the data being transferred.
 
+An API that uses the REST convention is said to be RESTful.
 
+RESTful routes look like:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* Browse: GET  /resource
+* Read:   GET  /resource/:id
+* Edit:   POST /resource/:id
+* Add:    POST /resource
+* Delete: POST /resource/:id/delete
 
 ### Useful Links
 * [REST](https://en.wikipedia.org/wiki/Representational_state_transfer)
